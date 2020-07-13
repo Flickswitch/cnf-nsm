@@ -21,7 +21,7 @@ require (
 	go.ligato.io/cn-infra/v2 v2.5.0-alpha.0.20200313154441-b0d4c1b11c73
 	go.ligato.io/vpp-agent/v3 v3.1.0
 	google.golang.org/grpc v1.27.1
-	k8s.io/apiextensions-apiserver v0.0.0
+	k8s.io/apiextensions-apiserver v0.17.1
 	k8s.io/apimachinery v0.17.1
 	k8s.io/client-go v11.0.0+incompatible
 )
