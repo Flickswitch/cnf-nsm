@@ -1,4 +1,4 @@
-IMAGE_REPO := "pringlewood"
+IMAGE_REPO := $(or $(ECR_REGISTRY),"pringlewood")
 VPP_VERSION := "20.01"
 
 VERSION := $(shell git describe --always --tags --dirty)
